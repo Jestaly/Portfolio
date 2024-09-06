@@ -1,0 +1,129 @@
+body {
+  background-color: #1e201e;
+}
+.over-all-panel {
+  background-color: #ecdfcc;
+  border-radius: 30px;
+  position: relative;
+  top: 55px;
+  height: 640px;
+  width: 1080px;
+  margin: auto;
+  box-shadow: 0px 0px 43px 9px rgba(255, 255, 255, 0.56);
+  -webkit-box-shadow: 0px 0px 43px 9px rgba(255, 255, 255, 0.56);
+  -moz-box-shadow: 0px 0px 43px 9px rgba(255, 255, 255, 0.56);
+}
+.nav-bar {
+  display: flex;
+  background-color: #e0d1bc;
+
+  width: 1080px;
+  height: 70px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 1px 18px 29px -7px rgba(134, 134, 134, 0.56);
+  -webkit-box-shadow: 1px 18px 29px -7px rgba(134, 134, 134, 0.56);
+  -moz-box-shadow: 1px 18px 29px -7px rgba(134, 134, 134, 0.56);
+}
+.sub-nav-bar {
+  display: flex;
+  width: 1080px;
+  height: 70px;
+}
+.nav-bar h1 {
+  display: flex;
+  font-family: "Noto Sans KR", Courier, monospace;
+  font-size: 20px;
+  padding: 5px;
+  color: #352f44;
+  margin-left: 5px;
+}
+.sub-nav-bar a {
+  display: flex;
+  font-family: "Noto Sans KR", Courier, monospace;
+  text-decoration: none;
+  color: #352f44;
+  margin-right: 35px;
+  height: 30px;
+  position: relative;
+  top: 22px;
+  left: 180px;
+}
+
+.nav-bar img {
+  display: block;
+  margin-left: 140px;
+}
+
+.sub-nav-bar a:hover {
+  transform: scale(1.2);
+  color: rgb(255, 255, 255);
+}
+
+.greetings-name {
+  display: flex;
+  position: absolute;
+  left: 95px;
+  top: 165px;
+}
+.greetings-name #first-h1 {
+  display: flex;
+  font-family: "Shadows Into Light", Courier, monospace;
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0px;
+}
+.greetings-name #p1 {
+  margin: 0px;
+  display: flex;
+  font-family: "Shadows Into Light", Courier, monospace;
+  font-size: 70px;
+  font-weight: bold;
+  height: 100px;
+  color: #0c3e62;
+  position: relative;
+  left: 23px;
+}
+
+.greetings-name #p2 {
+  display: block;
+  font-family: "Shadows Into Light", Courier, monospace;
+  font-size: 70px;
+  font-weight: bold;
+  color: #c0a124;
+  text-align: center;
+  margin: 0px;
+  position: absolute;
+  top: 225.5px;
+}
+
+.greetings-name #p1:hover {
+  transform: scale(1.2);
+  color: rgb(27, 135, 165);
+}
+
+.greetings-name #p2:hover {
+  transform: scale(1.2);
+  color: rgb(217, 217, 21);
+}
+
+.greetings-name #sec-h1 {
+  display: flex;
+  font-family: "Shadows Into Light", Courier, monospace;
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0px;
+  position: absolute;
+  top: 113px;
+}
+.profile-content {
+  display: flex;
+  position: relative;
+  left: 30em;
+  bottom: -15px;
+  width: 500px;
+}
+.profile-content .profile-picture {
+  height: 500px;
+}
